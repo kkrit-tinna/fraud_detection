@@ -9,7 +9,7 @@ This was generated using Sparkov Data Generation | Github tool created by Brando
 
 ## Project Description
 * This project follows typical machine learning workflow including data cleaning, EDA, data preprocessing, feature engineering, model building, regression modeling, and model validation.
-* This project uses predctive modeling via logistics regression model and decision tree model, and compare their model accuracy using metrics such as confusion matrix and classification report. It also includes fine tuning logistic model via hyperparameter tuning and L2 regularization.
+* This project uses predctive modeling -- logistics regression model and decision tree model, and compare their model accuracy and success metrics such as confusion matrix and classification report. It also includes model optimization techniques such as emsemble(random forest) and L2 regularization.
 * This project leverages some popular data-analyic tools, including numpy, pandas, seaborn, and train models using sklearn package(including model selection, metrics, logistics regression, grid search and decision tree).
 * This project can serve as a beginner-friendly tutorial on supervised learning, particularly using logistics regression and decision tree, process is well-documented and annotated in the jupyter notebook.
 
@@ -29,7 +29,6 @@ This was generated using Sparkov Data Generation | Github tool created by Brando
 
 ### Potential Issues
 * Dataset is generated using stimulator, which can be problematic in the accuracy and reliability.
-* Both models did not generalize well in test data, and the resulting issue is large volume of type I errors and type II errors, which can be detrimental to normnal transactions.
 * Only one powerful features is determined, so the application of this project is limited.
   
 ## Resources
@@ -48,5 +47,7 @@ Yifei Shi
 
 
 ## Version History
+* 0.2
+    * Modified model optimization part, dominant feature is idenitfied
 * 0.1
     * Initial Release
